@@ -1,0 +1,17 @@
+1)	What is the difference between the two algorithms? Read these two algorithms carefully.
+ If necessary, it might be helpful to set up an array yourself and apply these two algorithms on it
+ by running through them by hand for small size values of n.
+ 
+ The biggest difference between these 2 algorithms is that the 1st algorithm has an extra for loop.
+ Therefore the number of steps (and the number of operations) is larger in the 1st algorithm than in the 2nd one.
+ 
+2)	Analyse both algorithms by counting primitive operations and derive T(n) for both algorithms.
+ What is the time complexity (Big-Oh, O(n)) of each algorithm? Which one is the most efficient?
+ 
+ i) T(n) = n + n + 2n + n(n-1) + 7(n(n-1)) + 6n + 1 = 8n^2 + 2n + 1 -> O(n^2)
+ ii) T(n) = n + 1 + n + 5n + 6n + 1 = 13n + 2 -> O(n)
+ 
+ Second is much more efficient as it's complexity of a linear type, when
+ first algorithm's complexity of a polynomial type. That means that the 
+ amount of primitive operations of the first algorithm increases much more 
+ rapidly with the increase of n.

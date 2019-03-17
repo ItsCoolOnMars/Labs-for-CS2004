@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1552831454032_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=Lab1/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab2/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab5/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab10/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab11/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab12/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab13/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab14/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab15/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab4 Analysis of Algorithms/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab6/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab7/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab8/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab9/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1552831454094_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1552831544799_3" label="CS2004" name="CS2004">
+<item elementID="=Lab1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Lab5" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Lab6" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Lab7" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Lab8" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Lab9" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Lab10" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Lab11" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Lab12" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Lab13" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Lab14" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Lab15" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Lab4 Analysis of Algorithms" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1552831466504_2" label="Window Working Set" name="Aggregate for window 1552831466504"/>
+<mruList name="CS2004"/>
+</workingSetManager>
