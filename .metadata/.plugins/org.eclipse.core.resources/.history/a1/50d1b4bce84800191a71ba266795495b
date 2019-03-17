@@ -1,0 +1,69 @@
+import java.util.ArrayList;
+
+public class RMSHSolution {
+	
+	//Cities data
+	static public double[][] cities;
+	 private int[] tour;
+	static public int iter;
+	static public ArrayList<int[]> tours = new ArrayList<>();
+	
+	public static int[] getTour() {
+		return tour;
+	}
+
+	public static void setTour(int[] solution) {
+		this.tour = solution;
+	}
+			
+	public RMSHSolution(double[][] dataMatrix, int iter) {
+		cities = dataMatrix;
+		this.iter = iter;
+		tour = genRandSolution(dataMatrix.length);
+	}
+	
+	
+	
+	private int[] genRandSolution(int length) {
+		tour[]
+		for (int i = 0; i < cities.length; i++) {
+			tour[]
+		}
+		return null;
+	}
+
+	private void printSolution() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void getFitness() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void shuffleArray() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void RMHS() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void smallChange() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	
+	
+	
+	
+	
+	
+}
+
+	

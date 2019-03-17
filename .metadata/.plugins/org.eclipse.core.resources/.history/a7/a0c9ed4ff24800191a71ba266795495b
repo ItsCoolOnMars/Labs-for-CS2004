@@ -1,0 +1,9 @@
+
+public class Lab15 {
+
+	public static void main(String[] args) {
+		double [][] data = TSP.ReadArrayFile("src/TSPData/TSP_48.txt", " ");
+		HillClimbing name = new HillClimbing(data,10000);
+	}
+
+}

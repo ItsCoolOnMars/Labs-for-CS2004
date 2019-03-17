@@ -1,0 +1,85 @@
+import java.util.ArrayList;
+import java.util.Random;
+
+public class HillClimbing {
+	
+	//Cities data
+	public double[][] cities;
+	private int[] tour;
+	public int iter;
+	
+	public int[] getTour() {
+		return tour;
+	}
+
+	public void setTour(int[] solution) {
+		this.tour = solution;
+	}
+			
+	public HillClimbing(double[][] dataMatrix, int iter) {
+		cities = dataMatrix;
+		this.iter = iter;
+		tour = genRandSolution(dataMatrix.length);
+	}
+	
+	
+	
+	private int[] genRandSolution(int length) {
+		tour = new int[length];
+		for (int i = 0; i < length; i++) {
+			tour[i] = i;
+		}
+		tour = shuffleArray(tour);
+		return null;
+	}
+	
+	static public int[] shuffleArray(int[] array) {
+		
+		Random random = new Random();
+        for (int i = 0; i < array.length; i++) {
+            int randomValue = i + random.nextInt(array.length - i - 1) +1;
+            int randomElement = array[randomValue];
+            array[randomValue] = array[i];
+            array[i] = randomElement;
+        }
+		return array;		
+	}
+
+	private void printSolution() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private double getFitness() {
+		double s = 0;
+		for (int i = 0; i < tour.length; i++) {
+			int a = tour[i];
+			int b = tour[i+1];
+			s += cities[a][b];
+		}
+		s += cities[tour[0]][tour[tour.length]];
+		return s;
+	}
+
+
+
+	private void RMHS() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void smallChange() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	
+	
+	
+	
+	
+	
+}
+
+	

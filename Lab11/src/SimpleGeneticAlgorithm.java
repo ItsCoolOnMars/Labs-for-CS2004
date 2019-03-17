@@ -116,6 +116,21 @@ public class SimpleGeneticAlgorithm
 		ArrayList<Integer> c2 = new ArrayList<Integer>();
 		
 		//Add Uniform Crossover here - use DoOnePointCrossOver as a basis 
+		double rand; 
+		for(int i=0;i<nbits;++i)
+		{
+			rand = CS2004.UR(0,1);
+			if (rand < 0.5)
+			{
+				c1.add(p1.get(i));
+				c2.add(p2.get(i));
+			}
+			else
+			{
+				c1.add(p2.get(i));
+				c2.add(p1.get(i));
+			}
+		}
 		
 		population.add(new ScalesChrome(c1));
 		population.add(new ScalesChrome(c2));
@@ -138,9 +153,9 @@ public class SimpleGeneticAlgorithm
 				a = CS2004.UI(0,xlist.size()-1);
 				b = CS2004.UI(0,xlist.size()-1);
 			}
-			DoOnePointCrossOver(xlist.get(a),xlist.get(b));
+//			DoOnePointCrossOver(xlist.get(a),xlist.get(b));
 			//Comment out the above and uncomment the following for Uniform Crossover
-			//DoUniformCrossOver(xlist.get(a),xlist.get(b));
+			DoUniformCrossOver(xlist.get(a),xlist.get(b));
 			xlist.remove(b);
 			xlist.remove(a);
 		}
